@@ -18,5 +18,5 @@ function draw_qr() {
 }
 function draw_aztec() {
     var r = aztec(getText(), 23);  
-    aztec.src = toGif(r, s, 0);
+    az.src = toGif(r, s, 0);
 }
