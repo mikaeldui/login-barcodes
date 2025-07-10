@@ -11,12 +11,13 @@
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-csv@1.0.40/src/jquery.csv.min.js"
         integrity="sha256-zGo0JbZ5Sn6wU76MyVL0TrUZUq5GLXaFnMQCe/hSwVI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bwip-js@4.7.0/dist/bwip-js.min.js"></script>
 
     <script src="barcode.js"></script>
-    <script src="script.js?2025-07-04"></script>
+    <script src="script.js?2025-07-10"></script>
 </head>
 
-<body style="padding-left: 12px; padding-right: 12px;">
+<body style="padding-left: 12px; padding-right: 12px; padding-bottom: 48px">
     <div class="container">
         <h1 style="margin-top: 36px">Login Barcode Generator</h1>
         <p>
@@ -47,6 +48,18 @@
                     <img id="qr" class="bar img-fluid" style="max-height: 300px; padding:24px;" alt="QR barcode" style="padding:5px">
                     <br />
                     <span>QR</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img id="dc" class="bar img-fluid" style="max-height: 300px; padding:24px;" alt="DotCode barcode">
+                    <br />
+                    <span>DotCode</span>
+                </div>
+                <div class="col">
+                    <img id="hx" class="bar img-fluid" style="max-height: 300px; padding:24px;" alt="Han Xin barcode" style="padding:5px">
+                    <br />
+                    <span>Han Xin</span>
                 </div>
             </div>
         </div>
